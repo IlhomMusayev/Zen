@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 1350px;
+    margin: auto;
+    padding: 0 100px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+/*********************************************** navbar ****************************************************/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.navbar-left-section{
+    display: flex;
+    align-items: center;
+}
+.navbar-left-section .logo img{
+    max-width: 100px;
+}
+.navbar-left-section ul{
+    padding-left: 30px;
+}
+.navbar-left-section ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.navbar-left-section ul li a{
+    color: #000;
+}
+.navbar-right-section ul li{
+    display: inline-block;
+    padding: 0 10px;
+    color: #000;
+}
+.navbar-right-section ul li a{
+    color: #000;
+}
+.get-btn{
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #000;
+}
+/* /***********************************header-section*********************************** */
+
+.header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.header-text{
+    
+}
+.header-text .play-section a{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.play-icon img{
+    width: 30px;
+    padding: 8px;
+    border: 2px solid #000;
+    border-radius: 49%;
+}
+.play-text h3{
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: 400;
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+.header-text p{
+    width: 80%;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.get-download img{
+    padding: 10px 0;
+}
+
+.header-img{
+   
+}
+
+/* *************************************content-section*************************************** */
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 ;
+}
+.content-img{
+    width: 100%;
+}
+.content-text{
+    width: 100%;
+    padding-left: 80px;
+}
+.content-text h1{
+    font-size: 45px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.content-text p{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 0;
+}
+.content-text a{
+    padding: 20px 20px 10px 0;
+}
+/****************************************** Cashback **************************************************/
+.cashback-section{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 50px 0;
+}
+.cashback-section h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.cashback-section p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+/* ***********************************Clients ***************************************************** */
+.clients-items{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.clinets-item ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+.clinets-item ul li a img{
+    width: 150px;
+}
+
+
